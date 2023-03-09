@@ -4,88 +4,107 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Doppelgangers</title>
 </head>
+
 <body>
   
   <header role="banner">
   
     <!-- Include the tag for introductory content -->
     
-    <img src="../images/sysk-logo.webp" alt="logo image">
+    <a href="about.html"><img src="/images/sysk-logo.webp" alt="logo of podcast" role="presentation"></a>
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
 
     <nav>
       <ul>
         <li><a href="../about.html">About</a></li>
-        <li><a href="episodes.html">Episodes</a></li>
+        <li><a href="../episodes.html">Episodes</a></li>
       </ul>
     </nav>
    
   </header> 
     <!-- Write the markup for a navigation and link items to appropriate pages -->
  
-  <main id="main" role= main>
+  <main role= main>
 
  
   <!-- Add an element that represents the main content of the page --> 
 
-    <section id="podcast"></section>
+    <section id="podcast" role="navigation">
        
-    <!-- Include a tag that groups the information about this particular podcast --> 
+      <!-- Include a tag that groups the information about this particular podcast --> 
 
+      <img src="../images/doppelgangers.jpeg" atl="Outline of 2 men facing eachother with a caption that says, Hey you, your me!" role="presentation"/>  
 
       <!-- Display image relevant to topic -->
 
       <!-- Main heading for the page --> 
-      Doppelgängers: Hey you, you're me!
+      
+      <h1>Doppelgängers: Hey you, you're me!</h1>
+    
+      <article>
+        <p>October 11, 2022
+          47 min</p>
 
-      October 11, 2022
-      47 min
-
-      Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+        <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
+      </article>
 
       <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/doppelgangers-hey-you-youre-me-103115512/  -->
-      Click here to play episode on iHeart
-
+      
+      <a href= "https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/doppelgangers-hey-you-youre-me-103115512/">Click here to play episode on iHeart</a>
+    
+    </section>
 
 
     <!-- Include a tag that groups the other two podcasts -->  
-
+    <section>
       <!-- Section heading --> 
-      You might also like...
+      
+      <h2>You might also like...</h2>
 
       
       <!-- Include a tag for independent, self-contained content content -->
         
         <!-- Section sub-heading -->
-        Interesting Origins of Everday phrases
+      <h3>Interesting Origins of Everday phrases</h3>
 
-        <!-- Display image relevant to topic -->
-
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-        
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+      <img src="../images/everyday-phrases.jpeg" alt="Cut out words relating to everyday prases." role="presentation"/>    
       
+      <!-- Display image relevant to topic -->
+
+      <article>
+        <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
+      </article>  
+
+        <!-- Link to existing html page within episodes directory; relevant to topic -->
+      <a href ="episodes.html" Learn more alt="Learn more" role="presentation"/>
+    </section>  
 
       <!-- Include a tag for independent, self-contained content content -->
-        
+       
         <!-- Section sub-heading -->
-        The History of Fake Towns
-        
+    <section> 
+        <h4>The History of Fake Towns</h4>
+
+        <img src="../images/fake-towns.jpeg" atl="White lady standing before a cross roads sign." role="presentation"/>
+
         <!-- Display image relevant to topic -->
         
-        There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.
-        
+        <article>
+        <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
+        </article>
+
         <!-- Link to existing html page within episodes directory; relevant to topic -->
         Learn more
-      
+      </section>    
 
   </main>    
   <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
   
+  <footer role="content-info">
+  <p><small>&copy; SYSK 2023</small></p>
+  </footer>
   
 </body>
 </html>
